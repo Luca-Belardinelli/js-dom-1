@@ -3,14 +3,20 @@
 
 const button = document.getElementById('interrutore');
 
-const img =  document.getElementById('spenta')
+const spenta =  document.getElementById('spenta')
+const accesa =  document.getElementById('accesa')
 
 
 // gestione del click
 
 button.addEventListener('click', function() {
 
-    spenta.src = 'yellow_lamp.png';
+    spenta.classList.remove('spenta');
+    spenta.classList.add('accesa');
+
+    accesa.classList.remove('accesa');
+    accesa.classList.add('spenta');
+    
     interrutore.textContent = 'Spegni';
 
 });
