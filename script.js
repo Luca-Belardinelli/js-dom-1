@@ -11,12 +11,10 @@ const accesa =  document.getElementById('accesa')
 
 button.addEventListener('click', function() {
 
-    spenta.classList.remove('spenta');
     spenta.classList.add('accesa');
 
     accesa.classList.remove('accesa');
-    accesa.classList.add('spenta');
-    
+
     interrutore.textContent = 'Spegni';
 
 });
