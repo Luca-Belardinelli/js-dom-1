@@ -5,17 +5,22 @@
     }
 
 
-#spina{
+#spina {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
 
-#interrutore{
+#interrutore {
     padding: 20px  10px;
     border-radius: 50%;
     background-color: #9897FF;
     color: white;
     font-size: 20px;
+    cursor: pointer;
 }
+
+
+
+
